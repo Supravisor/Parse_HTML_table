@@ -1,5 +1,27 @@
 
+body {
+  background: #FFE873;
+  font-family: Arial;
+}
+
 h1 {
   font-family: Corbel;
   text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+#buttons {
+  background: LightBlue;
+  padding: 10px;  
+}
+
+#preview {
+  height: 70vh;
+}
+
+#buttons, #preview {
+  width: 38vw;
 }
