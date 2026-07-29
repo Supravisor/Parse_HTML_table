@@ -18,10 +18,28 @@ table {
   padding: 10px;  
 }
 
+td {
+  vertical-align: top;
+}
+
 #preview {
   height: 70vh;
+  border-radius: 7px;
+  background: rgb(150, 150, 150);
 }
 
 #buttons, #preview {
   width: 38vw;
+  border: 3px solid black;
+  color: black;
+}
+
+#textbox {
+  position: fixed;
+  padding-left: 5vw;
+  background-color: transparent;
+}
+
+#empty {
+  width: 45vw;
 }
