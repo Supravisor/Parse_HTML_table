@@ -18,6 +18,10 @@ table {
   padding: 10px;  
 }
 
+td {
+  vertical-align: top;
+}
+
 #preview {
   height: 70vh;
   border-radius: 7px;
