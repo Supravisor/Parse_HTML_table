@@ -9,6 +9,7 @@ h1 {
   text-align: center;
 }
 
+/* table */
 table {
   margin: auto;
 }
@@ -42,4 +43,22 @@ td {
 
 #empty {
   width: 45vw;
+}
+
+/* buttons */
+.btn {
+  padding: 14px 12px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.btn-module {
+  background: #FFE873;
+}
+
+input {
+  padding: 2px 3px;
+  margin-left: 6px;
+  margin-bottom: 6px;
 }
