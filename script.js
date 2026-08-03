@@ -5,6 +5,8 @@ const readHtml = () => {
 html_string = """
 <table>
   <thead>
+    <tr>
+    </tr>
   </thead>
 </table>
 """
