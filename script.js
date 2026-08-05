@@ -7,6 +7,7 @@ html_string = """
   <thead>
     <tr>
       <th>Customer name</th>
+      <th>Phone</th> 
     </tr>
   </thead>
 </table>
