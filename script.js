@@ -11,6 +11,8 @@ html_string = """
     </tr>
   </thead>
   <tbody>
+    <tr>
+    </tr>
   </tbody>
 </table>
 """
