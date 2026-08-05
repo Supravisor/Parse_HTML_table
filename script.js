@@ -10,6 +10,8 @@ html_string = """
       <th>Phone</th> 
     </tr>
   </thead>
+  <tbody>
+  </tbody>
 </table>
 """
   `;
