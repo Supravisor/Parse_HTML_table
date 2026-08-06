@@ -16,6 +16,7 @@ html_string = """
       <td>123 456-789</td>
     </tr>
     <tr>
+      <td>George Smith</td>
     </tr>
   </tbody>
 </table>
