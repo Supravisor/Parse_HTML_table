@@ -25,5 +25,8 @@ html_string = """
   `;
 
   let keep = "";
-}
 
+  if (header.value) {
+    keep += ", header=0";
+  }
+}
