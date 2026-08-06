@@ -15,6 +15,10 @@ html_string = """
       <td>Jane Purdy</td>
       <td>123 456-789</td>
     </tr>
+    <tr>
+      <td>George Smith</td>
+      <td>232 567-358</td>
+    </tr>
   </tbody>
 </table>
 """
