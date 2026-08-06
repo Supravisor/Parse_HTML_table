@@ -23,4 +23,7 @@ html_string = """
 </table>
 """
   `;
+
+  let keep = "";
 }
+
