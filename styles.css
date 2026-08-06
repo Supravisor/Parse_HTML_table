@@ -72,3 +72,7 @@ input {
   background: #449d44;
   border-color: #398439;
 }
+
+.btn-success {
+  color: white;
+}
