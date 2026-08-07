@@ -23,4 +23,12 @@ html_string = """
 </table>
 """
   `;
+
+  let keep = "";
+
+  if (header.value) {
+    keep += ", header=0";
+  }
+
+  document.editor.textbox.value+="dfs = pd.read_html(html_string" + keep + ")[0]";
 }
