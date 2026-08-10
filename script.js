@@ -37,4 +37,7 @@ html_string = """
 
 // Parse HTML tables from the web
 const readHtmlWeb = () => {
+  if (url.value === "") {
+    return alert("Please enter a url in the 'url' field, in the 'Parse HTML tables from the web' section.");
+  }
 }
