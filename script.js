@@ -1,5 +1,7 @@
 
 // Parse raw HTML strings
+let header = document.editor.header;
+
 const readHtml = () => {
   document.editor.textbox.value+=`
 html_string = """
