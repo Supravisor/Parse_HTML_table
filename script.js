@@ -34,3 +34,7 @@ html_string = """
 
   document.editor.textbox.value+="dfs = pd.read_html(html_string" + keep + ")[0]";
 }
+
+// Parse HTML tables from the web
+const readHtmlWeb = () => {
+}
