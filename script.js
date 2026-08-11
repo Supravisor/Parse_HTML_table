@@ -39,5 +39,7 @@ html_string = """
 const readHtmlWeb = () => {
   if (url.value === "") {
     return alert("Please enter a url in the 'url' field, in the 'Parse HTML tables from the web' section.");
+  } else {
+      document.editor.textbox.value+="\nhtml_url = '" + url.value + "'\ndfs = pd.read_html(html_url)[0]";
   }
 }
