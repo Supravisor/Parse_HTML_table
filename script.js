@@ -43,3 +43,6 @@ const readHtmlWeb = () => {
       document.editor.textbox.value+="\nhtml_url = '" + url.value + "'\ndfs = pd.read_html(html_url)[0]";
   }
 }
+
+const requests = () => {
+}
