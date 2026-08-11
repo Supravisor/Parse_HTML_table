@@ -34,3 +34,15 @@ html_string = """
 
   document.editor.textbox.value+="dfs = pd.read_html(html_string" + keep + ")[0]";
 }
+
+// Parse HTML tables from the web
+const readHtmlWeb = () => {
+  if (url.value === "") {
+    return alert("Please enter a url in the 'url' field, in the 'Parse HTML tables from the web' section.");
+  } else {
+      document.editor.textbox.value+="\nhtml_url = '" + url.value + "'\ndfs = pd.read_html(html_url)[0]";
+  }
+}
+
+const requests = () => {
+}
