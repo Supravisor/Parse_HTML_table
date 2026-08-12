@@ -87,7 +87,7 @@ label > select {
   border-color: #398439;
 }
 
-.btn-success {
+.btn-success, .btn-data {
   color: white;
 }
 

@@ -53,3 +53,12 @@ const requests = () => {
       document.editor.textbox.value+="\nhtml_url = '" + url.value + "'\nr = requests.get(html_url)\ntables = pd.read_html(r.text, header=0)\ndfs = tables[1]";
   }
 }
+
+// Data at a glance
+const data = (stat) => {
+  if (stat === "shape") {
+    document.editor.textbox.value+= '\ndf' + '.' + stat;
+  } else {
+      document.editor.textbox.value+= '\ndf' + '.' + stat + '()';
+  }
+}
