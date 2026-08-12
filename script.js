@@ -36,6 +36,8 @@ html_string = """
 }
 
 // Parse HTML tables from the web
+let url = document.getElementById("url");
+
 const readHtmlWeb = () => {
   if (url.value === "") {
     return alert("Please enter a url in the 'url' field, in the 'Parse HTML tables from the web' section.");
@@ -45,4 +47,9 @@ const readHtmlWeb = () => {
 }
 
 const requests = () => {
+  if (url.value === "") {
+    return alert("Please enter a url in the 'url' field, in the 'Parse HTML tables from the web' section.");
+  } else {
+      document.editor.textbox.value+="\nhtml_url = '" + url.value + "'\nr = requests.get(html_url)\ntables = pd.read_html(r.text, header=0)\ndfs = tables[1]";
+  }
 }
