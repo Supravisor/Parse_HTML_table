@@ -58,5 +58,7 @@ const requests = () => {
 const data = (stat) => {
   if (stat === "shape") {
     document.editor.textbox.value+= '\ndf' + '.' + stat;
+  } else {
+      document.editor.textbox.value+= '\ndf' + '.' + stat + '()';
   }
 }
