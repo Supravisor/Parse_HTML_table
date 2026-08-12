@@ -90,3 +90,7 @@ label > select {
 .btn-success {
   color: white;
 }
+
+.btn-data {
+  background: #646464;
+}
