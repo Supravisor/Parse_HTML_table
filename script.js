@@ -45,4 +45,7 @@ const readHtmlWeb = () => {
 }
 
 const requests = () => {
+  if (url.value === "") {
+    return alert("Please enter a url in the 'url' field, in the 'Parse HTML tables from the web' section.");
+  }
 }
