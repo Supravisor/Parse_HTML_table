@@ -64,6 +64,8 @@ const data = (stat) => {
 }
 
 // Data cleaning
+let rowStart = document.getElementById("rowStart");
+
 const drop = (arg) => {
   if (rowStart.value === "") {
     return alert("Please enter a row start number in the 'start' field, in the 'Data cleaning' section.");
