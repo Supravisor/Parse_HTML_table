@@ -75,3 +75,6 @@ const drop = (arg) => {
       document.editor.textbox.value+="\ndfs." + arg + "([" + rowStart.value + ", " + rowEnd.value + "], inplace=True)";
   }
 }
+
+const setIndex = () => {
+}
