@@ -67,5 +67,7 @@ const data = (stat) => {
 const drop = (arg) => {
   if (rowStart.value === "") {
     return alert("Please enter a row start number in the 'start' field, in the 'Data cleaning' section.");
+  } else if (rowEnd.value === "") {
+      return alert("Please enter a row end number in the 'end' field, in the 'Data cleaning' section.");
   }
 }
