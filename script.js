@@ -85,3 +85,8 @@ const setIndex = () => {
       document.editor.textbox.value+="\ndfs.set_index('" + index.value + "', inplace=True)";
   }
 }
+
+// Save to CSV file
+const toCSV = () => {
+  document.editor.textbox.value+="\ndfs.to_csv('out.csv')";
+}
