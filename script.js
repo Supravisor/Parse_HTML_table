@@ -62,3 +62,26 @@ const data = (stat) => {
       document.editor.textbox.value+= '\ndf' + '.' + stat + '()';
   }
 }
+
+// Data cleaning
+let rowStart = document.getElementById("rowStart");
+let rowEnd = document.getElementById("rowEnd");
+let index = document.getElementById("index");
+
+const drop = (arg) => {
+  if (rowStart.value === "") {
+    return alert("Please enter a row start number in the 'start' field, in the 'Data cleaning' section.");
+  } else if (rowEnd.value === "") {
+      return alert("Please enter a row end number in the 'end' field, in the 'Data cleaning' section.");
+  } else {
+      document.editor.textbox.value+="\ndfs." + arg + "([" + rowStart.value + ", " + rowEnd.value + "], inplace=True)";
+  }
+}
+
+const setIndex = () => {
+  if (index.value === "") {
+    return alert("Please enter an index name in the 'index' field, in the 'Data cleaning' section.");
+  } else {
+      document.editor.textbox.value+="\ndfs.set_index('" + index.value + "', inplace=True)";
+  }
+}
