@@ -66,6 +66,7 @@ const data = (stat) => {
 // Data cleaning
 let rowStart = document.getElementById("rowStart");
 let rowEnd = document.getElementById("rowEnd");
+let index = document.getElementById("index");
 
 const drop = (arg) => {
   if (rowStart.value === "") {
