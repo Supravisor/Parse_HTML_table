@@ -79,5 +79,7 @@ const drop = (arg) => {
 const setIndex = () => {
   if (index.value === "") {
     return alert("Please enter an index name in the 'index' field, in the 'Data cleaning' section.");
+  } else {
+      document.editor.textbox.value+="\ndfs.set_index('" + index.value + "', inplace=True)";
   }
 }
