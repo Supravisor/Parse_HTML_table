@@ -62,3 +62,8 @@ const data = (stat) => {
       document.editor.textbox.value+= '\ndf' + '.' + stat + '()';
   }
 }
+
+// Data cleaning
+const drop = (arg) => {
+}
+
